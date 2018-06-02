@@ -1,0 +1,107 @@
+html{
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+}
+
+body{
+  background-image: url('../img/space2.png');
+  background-size: cover;
+  /*background-position: 50% 50%;*/
+
+  font-family: 'Orbitron', sans-serif;
+}
+p{
+  font-family: consolas;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+blockquote{
+  font-family: consolas;
+  font-weight: 600;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+}
+
+.box{
+  width: 250px;
+  height: 250px;
+
+  background-color: #000;
+  opacity: 0.2;
+
+  top: 50%;
+  left: 50%;
+
+  position: absolute;
+}
+
+.navbar{
+  /*color: #ffffff;*/
+}
+
+.navbar a{
+  color: #ffffff;
+}
+
+
+.transparent{
+  background: transparent;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-image: image('dist/img/space.png');
+  /*background-color: #b61924;*/
+  /*background-image: ;*/
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+#particles-js canvas{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*z-index: -1;*/
+}
+
+.card{
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.75);
+
+}
+
+.img-fluid{
+
+}
+
+.sec-1{
+  background: #000;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-lg{
+  max-width: 1000px;
+
+}
+
+@media (min-width: 576px){
+
+  .modal-dialog{
+    margin-top: 4.2rem auto;
+  }
+}
+
+.modal.fade .modal-dialog{
+  transition: transform 0.1 ease-in-out;
+}
+
+.modal-content{
+  background-color: rgba(0, 0, 0, 0.9);
+}

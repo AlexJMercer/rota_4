@@ -1,0 +1,65 @@
+html{
+  font-family: 'Orbitron', sans-serif;
+}
+
+body{
+  background-image: url('dist/img/space2.png');
+  background-size: cover;
+  background-position: 50% 50%;
+
+  font-family: 'Orbitron', sans-serif;
+}
+.container{
+  height: 100%;
+  width: 100%;
+}
+
+.box{
+  width: 250px;
+  height: 250px;
+
+  background-color: #000;
+  opacity: 0.2;
+
+  top: 50%;
+  left: 50%;
+
+  position: absolute;
+}
+
+.navbar{
+  /*color: #ffffff;*/
+}
+
+.navbar a{
+  color: #ffffff;
+}
+
+
+.transparent{
+  background: transparent;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-image: image('dist/img/space.png');
+  /*background-color: #b61924;*/
+  /*background-image: ;*/
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+#particles-js canvas{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*z-index: -1;*/
+}
+
+.card{
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.75);
+
+}
