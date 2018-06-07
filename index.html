@@ -178,14 +178,20 @@
                 easing: 'linear' // The CSS3 easing function of the ripple
                 });
 
-            (function($) {
+          /*  (function($) {
             $(function() {
               $(window).on('load', function(){
                 $(".loader").delay(10000);
                 $(".loader").fadeOut();
               });
             });
-          })(jQuery);
+          })(jQuery);*/
+    </script>
+    <script type="text/javascript">
+    $(window).on('load', function(){
+      $(".loader").delay(10000);
+      $(".loader").fadeOut();
+    });
     </script>
   </body>
 </html>
