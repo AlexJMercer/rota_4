@@ -62,7 +62,7 @@
               <div class="card text-center">
                 <div class="">
                   <div class="card-picture">
-                    <img class="img-fluid rounded" src="dist/img/digit.png" alt="Card image cap">
+                    <img class="img-fluid rounded" src="dist/img/digit2.png" alt="Card image cap">
                   </div>
                 </div>
                 <div class="card-body">
@@ -78,7 +78,7 @@
               <div class="card text-center">
                 <div class="">
                   <div class="card-picture">
-                    <img class="img-fluid profile rounded" src="dist/img/hadron.png" alt="Card image cap">
+                    <img class="img-fluid profile rounded" src="dist/img/hadron2.png" alt="Card image cap">
                   </div>
                 </div>
                 <div class="card-body">
@@ -101,7 +101,7 @@
               <div class="card text-center">
                 <div class="">
                   <div class="card-picture">
-                    <img class="img-fluid rounded" src="dist/img/gene.png" alt="Card image cap">
+                    <img class="img-fluid rounded" src="dist/img/gene2.png" alt="Card image cap">
                   </div>
                 </div>
                 <div class="card-body">
@@ -115,7 +115,7 @@
               <div class="card text-center">
                 <div class="">
                   <div class="card-picture">
-                    <img class="img-fluid rounded" src="dist/img/crystal.png" alt="Card image cap">
+                    <img class="img-fluid rounded" src="dist/img/crystal2.png" alt="Card image cap">
                   </div>
                 </div>
                 <div class="card-body">
@@ -157,6 +157,18 @@
     <script src="dist/js/ripple.min.js"></script>
 
     <script type="text/javascript">
+    $(window).on('load', function(){
+      $(".loader").delay(8500);
+    });
+    $(window).click(function(){
+      $(".loader").delay(1500);
+      $(".loader").fadeOut();
+      $(".row").fadeIn();
+    })
+
+    </script>
+
+    <script type="text/javascript">
 
       //Waves.init();
       //Waves.attach('.btn', ['waves-float', 'waves-light']);
@@ -187,12 +199,6 @@
             });
           })(jQuery);*/
     </script>
-    <script type="text/javascript">
-    $(window).on('load', function(){
-      $(".scope").delay(700).show();
-      $(".loader").delay(10000);
-      $(".loader").fadeOut();
-    });
-    </script>
+
   </body>
 </html>

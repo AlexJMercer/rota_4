@@ -3,7 +3,8 @@ html{
 }
 
 body{
-  background-image: url('../img/space2.png');
+  background-image: url('../img/space.jpg');
+  /*background-color: #000;*/
   background-size: cover;
   background-position: 50% 50%;
 
@@ -62,4 +63,21 @@ body{
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.75);
 
+}
+
+@keyframes appear {
+  from {
+    transform:scale(0);
+    opacity:0;
+  }
+  to {
+     transform: scale(1);
+    opacity:1;
+  }
+}
+
+.particles-js-canvas-el{
+  transform: scale(1);
+  animation: appear 1.2s 1;
+  animation-fill-mode: forwards;
 }
